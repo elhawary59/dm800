@@ -1,0 +1,2571 @@
+Package: ca-certificates-dbg
+Version: 20190110-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 379bdd9c400cc9095763f6b7a7c9bb9d
+Size: 808
+Filename: ca-certificates-dbg_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Debugging files
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.  This package contains ELF symbols
+ and related sources for debugging purposes.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20190110-r0
+Depends: ca-certificates (= 20190110-r0)
+Recommends: openssl-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 8d574b913b00b6f55c0348bb4447cecd
+Size: 852
+Filename: ca-certificates-dev_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Development files
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20190110-r0
+Section: doc
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 74fcbe42f82d370a13f25df29761a1e2
+Size: 2090
+Filename: ca-certificates-doc_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates - Documentation files
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.  This package contains
+ documentation.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20190110-r0
+Depends: openssl
+Section: misc
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 2dd1abfaaf382204f9ed27e1ba70d89c
+Size: 129014
+Filename: ca-certificates_20190110-r0_all.ipk
+Source: ca-certificates_20190110.bb
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: enigma2-plugin-skins-magic
+Version: 1.2+git331+8b5fb84-r0
+Depends: font-valis-enigma
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: 4b0005a3d137a6f22820ae4ce19d8d72
+Size: 122472
+Filename: enigma2-plugin-skins-magic_1.2+git331+8b5fb84-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
+ Magic skin for Enigma2
+OE: enigma2-plugin-skins-magic
+License: GPLv2+
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dbg
+Version: 0.1+git2056+5220242-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 92fdd98246c98c6072c9825a03bc2928
+Size: 694
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2056+5220242-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+5220242b3e-r0 - Debugging files
+ PLi HD skin  This package contains ELF symbols and related sources for
+ debugging purposes.
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dev
+Version: 0.1+git2056+5220242-r0
+Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2056+5220242-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: bc352df64019bcb0f32d1ac82225278d
+Size: 732
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2056+5220242-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+5220242b3e-r0 - Development files
+ PLi HD skin  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git2056+5220242-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 4d7921699bc30daf2a92673b39737c4d
+Size: 733976
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2056+5220242-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+5220242b3e-r0
+ PLi HD skin
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: firmware-rt73
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 117f08de43bd24fca9595f83fecf8039
+Size: 1868
+Filename: firmware-rt73_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rt73.bb
+Description: firmware-rt73 version 1.1+gitAUTOINC+4b2b151e18-r0
+ Firmware for RT73
+OE: firmware-rt73
+License: CLOSED
+Priority: optional
+
+Package: firmware-rtl8712u
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 038fd9bf0a95f76569d537e9ecb7c980
+Size: 63828
+Filename: firmware-rtl8712u_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-rtl8712u.bb
+Description: firmware-rtl8712u version 1.1+gitAUTOINC+4b2b151e18-r0
+ Firmware for RTL8712U
+OE: firmware-rtl8712u
+License: CLOSED
+Priority: optional
+
+Package: firmware-zd1211
+Version: 1.1+git296+4b2b151-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 357417d16fe0a8847305a9e03c170317
+Size: 63890
+Filename: firmware-zd1211_1.1+git296+4b2b151-r0_all.ipk
+Source: firmware-zd1211.bb
+Description: firmware-zd1211 version 1.1+gitAUTOINC+4b2b151e18-r0
+ Firmware for ZD1211
+OE: firmware-zd1211
+License: CLOSED
+Priority: optional
+
+Package: font-valis-enigma
+Version: 2009.11.12-r0
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: 0180105d1d21e2bfbd238602a9b88488
+Size: 36934
+Filename: font-valis-enigma_2009.11.12-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.2+gitAUTOINC+8b5fb84750-r0
+ Valis enigma font
+OE: enigma2-plugin-skins-magic
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-atsc-dbg
+Version: git627+f3f138f-r0
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: a1e792db1209ba65e44f0a47e8b0f6f1
+Size: 670
+Filename: frequency-xml-list-atsc-dbg_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-atsc.bb
+Description: atsc.xml for enigma2 - Debugging files
+ atsc.xml for enigma2.  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: frequency-xml-list-atsc
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-atsc-dev
+Version: git627+f3f138f-r0
+Depends: frequency-xml-list-atsc (= git627+f3f138f-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: 17ac11ab67dfa4b0f8e6d56ba3cc8260
+Size: 704
+Filename: frequency-xml-list-atsc-dev_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-atsc.bb
+Description: atsc.xml for enigma2 - Development files
+ atsc.xml for enigma2.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: frequency-xml-list-atsc
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-atsc
+Version: git627+f3f138f-r0
+Section: base
+Architecture: all
+Maintainer: OE-A
+MD5Sum: 82ab8a7168b5c5dc75e29f425921922f
+Size: 1940
+Filename: frequency-xml-list-atsc_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-atsc.bb
+Description: atsc.xml for enigma2
+ atsc.xml for enigma2.
+OE: frequency-xml-list-atsc
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-cables-dbg
+Version: git627+f3f138f-r0
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: 4275081479aec00645a6306ea0586001
+Size: 668
+Filename: frequency-xml-list-cables-dbg_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-cables.bb
+Description: cables.xml for enigma2 - Debugging files
+ cables.xml for enigma2.  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: frequency-xml-list-cables
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-cables-dev
+Version: git627+f3f138f-r0
+Depends: frequency-xml-list-cables (= git627+f3f138f-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: e110626c8b2165a9bab0a22cb4effe21
+Size: 704
+Filename: frequency-xml-list-cables-dev_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-cables.bb
+Description: cables.xml for enigma2 - Development files
+ cables.xml for enigma2.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: frequency-xml-list-cables
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-cables
+Version: git627+f3f138f-r0
+Section: base
+Architecture: all
+Maintainer: OE-A
+MD5Sum: bb296cb7dd411bd43098febfa15fe3ae
+Size: 31778
+Filename: frequency-xml-list-cables_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-cables.bb
+Description: cables.xml for enigma2
+ cables.xml for enigma2.
+OE: frequency-xml-list-cables
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-satellites-dbg
+Version: git627+f3f138f-r0
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: 380c354a93b24bafdae2cfdc4a529193
+Size: 670
+Filename: frequency-xml-list-satellites-dbg_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-satellites.bb
+Description: satellites.xml for enigma2 - Debugging files
+ satellites.xml for enigma2.  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: frequency-xml-list-satellites
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-satellites-dev
+Version: git627+f3f138f-r0
+Depends: frequency-xml-list-satellites (= git627+f3f138f-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: dd76770759a6fb246e7da099b15ebe20
+Size: 706
+Filename: frequency-xml-list-satellites-dev_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-satellites.bb
+Description: satellites.xml for enigma2 - Development files
+ satellites.xml for enigma2.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: frequency-xml-list-satellites
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-satellites
+Version: git627+f3f138f-r0
+Section: base
+Architecture: all
+Maintainer: OE-A
+MD5Sum: a2bc47c12adea8ab11be1e157e5db4f9
+Size: 34462
+Filename: frequency-xml-list-satellites_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-satellites.bb
+Description: satellites.xml for enigma2
+ satellites.xml for enigma2.
+OE: frequency-xml-list-satellites
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-terrestrial-dbg
+Version: git627+f3f138f-r0
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: 069208fe475e9569500622e7e921dcdf
+Size: 674
+Filename: frequency-xml-list-terrestrial-dbg_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-terrestrial.bb
+Description: terrestrial.xml for enigma2 - Debugging files
+ terrestrial.xml for enigma2.  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: frequency-xml-list-terrestrial
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-terrestrial-dev
+Version: git627+f3f138f-r0
+Depends: frequency-xml-list-terrestrial (= git627+f3f138f-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-A
+MD5Sum: a0df6eb4332225e3cf7f635c55f702bc
+Size: 704
+Filename: frequency-xml-list-terrestrial-dev_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-terrestrial.bb
+Description: terrestrial.xml for enigma2 - Development files
+ terrestrial.xml for enigma2.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: frequency-xml-list-terrestrial
+License: GPLv2+
+Priority: optional
+
+Package: frequency-xml-list-terrestrial
+Version: git627+f3f138f-r0
+Section: base
+Architecture: all
+Maintainer: OE-A
+MD5Sum: 5dc8651482bc3678439a16200c3b138d
+Size: 19158
+Filename: frequency-xml-list-terrestrial_git627+f3f138f-r0_all.ipk
+Source: frequency-xml-list-terrestrial.bb
+Description: terrestrial.xml for enigma2
+ terrestrial.xml for enigma2.
+OE: frequency-xml-list-terrestrial
+License: GPLv2+
+Priority: optional
+
+Package: iso-codes-dbg
+Version: 3.74-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f8c11c83e9e885f2cad93199dc9b6d6a
+Size: 712
+Filename: iso-codes-dbg_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - Debugging files
+ ISO language, territory, currency, script codes and their translations.
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-dev
+Version: 3.74-r0
+Depends: iso-codes (= 3.74-r0)
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 724345bca69700dd6ce7945cadff5350
+Size: 986
+Filename: iso-codes-dev_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - Development files
+ ISO language, territory, currency, script codes and their translations.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-af
+Version: 3.74-r0
+Provides: af-translation, iso-codes-locale
+Recommends: virtual-locale-af
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 16b39237d682e0957e5294ae37b8a1ed
+Size: 12570
+Filename: iso-codes-locale-af_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - af translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the af locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-am
+Version: 3.74-r0
+Provides: am-translation, iso-codes-locale
+Recommends: virtual-locale-am
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 4f7baee5d51cc4ee3c3eb7160ca69006
+Size: 7722
+Filename: iso-codes-locale-am_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - am translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the am locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ar
+Version: 3.74-r0
+Provides: ar-translation, iso-codes-locale
+Recommends: virtual-locale-ar
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: e94e75c8884a6d67bddbb65f2d888649
+Size: 15548
+Filename: iso-codes-locale-ar_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ar translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ar locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-as
+Version: 3.74-r0
+Provides: as-translation, iso-codes-locale
+Recommends: virtual-locale-as
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 03f12e49a103a1cfe3879e8aede3af5b
+Size: 24404
+Filename: iso-codes-locale-as_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - as translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the as locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ast
+Version: 3.74-r0
+Provides: ast-translation, iso-codes-locale
+Recommends: virtual-locale-ast
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 818e2b7a5828c69d1f9029ce92c3bd0c
+Size: 153320
+Filename: iso-codes-locale-ast_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ast translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ast locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-az
+Version: 3.74-r0
+Provides: az-translation, iso-codes-locale
+Recommends: virtual-locale-az
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 53973e43c8a01bd3691620bffe3fe2cc
+Size: 8162
+Filename: iso-codes-locale-az_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - az translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the az locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-be
+Version: 3.74-r0
+Provides: be-translation, iso-codes-locale
+Recommends: virtual-locale-be
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 6405ae6a9ff49495b6f2ab1e54a41d94
+Size: 23624
+Filename: iso-codes-locale-be_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - be translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the be locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bg
+Version: 3.74-r0
+Provides: bg-translation, iso-codes-locale
+Recommends: virtual-locale-bg
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 242c1b51c80e3c6a6c34159da894fe0f
+Size: 35782
+Filename: iso-codes-locale-bg_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bg translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bg locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bn-in
+Version: 3.74-r0
+Provides: bn-in-translation, iso-codes-locale
+Recommends: virtual-locale-bn-in
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 718b13ae29faa69c2d281cf3e3b0a870
+Size: 12472
+Filename: iso-codes-locale-bn-in_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bn_IN translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bn_IN locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bn
+Version: 3.74-r0
+Provides: bn-translation, iso-codes-locale
+Recommends: virtual-locale-bn
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a6edeb7699ac29ed5536938201ec1104
+Size: 56620
+Filename: iso-codes-locale-bn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-br
+Version: 3.74-r0
+Provides: br-translation, iso-codes-locale
+Recommends: virtual-locale-br
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: d0345bed98e5e6083bae289fc3b7d00a
+Size: 22772
+Filename: iso-codes-locale-br_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - br translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the br locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-bs
+Version: 3.74-r0
+Provides: bs-translation, iso-codes-locale
+Recommends: virtual-locale-bs
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: c1c027dd400ffbb65d43d75582ddce4c
+Size: 13492
+Filename: iso-codes-locale-bs_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - bs translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the bs locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-byn
+Version: 3.74-r0
+Provides: byn-translation, iso-codes-locale
+Recommends: virtual-locale-byn
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 4f218d76b34657a030acc7c5c5825d86
+Size: 7376
+Filename: iso-codes-locale-byn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - byn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the byn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ca
+Version: 3.74-r0
+Provides: ca-translation, iso-codes-locale
+Recommends: virtual-locale-ca
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: b9da84a17def807ca99873b42c585809
+Size: 27016
+Filename: iso-codes-locale-ca_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ca translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ca locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-crh
+Version: 3.74-r0
+Provides: crh-translation, iso-codes-locale
+Recommends: virtual-locale-crh
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 7b963e53cca37d3a5326697f29911e06
+Size: 132442
+Filename: iso-codes-locale-crh_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - crh translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the crh locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cs
+Version: 3.74-r0
+Provides: cs-translation, iso-codes-locale
+Recommends: virtual-locale-cs
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f1a559a5ca3c3bd5237e87954b9ca597
+Size: 38688
+Filename: iso-codes-locale-cs_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - cs translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the cs locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-cy
+Version: 3.74-r0
+Provides: cy-translation, iso-codes-locale
+Recommends: virtual-locale-cy
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: af54796fb5e3ab01286d3ec27796dcaa
+Size: 13838
+Filename: iso-codes-locale-cy_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - cy translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the cy locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-da
+Version: 3.74-r0
+Provides: da-translation, iso-codes-locale
+Recommends: virtual-locale-da
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 7904639548e6cfb4fa091637f4bdc015
+Size: 115894
+Filename: iso-codes-locale-da_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - da translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the da locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-de
+Version: 3.74-r0
+Provides: de-translation, iso-codes-locale
+Recommends: virtual-locale-de
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 5e6934c02a6aaaeeb3cc46504733d887
+Size: 291282
+Filename: iso-codes-locale-de_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - de translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the de locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-dz
+Version: 3.74-r0
+Provides: dz-translation, iso-codes-locale
+Recommends: virtual-locale-dz
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 7a7b198978f72ec10486763e002a517d
+Size: 13412
+Filename: iso-codes-locale-dz_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - dz translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the dz locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-el
+Version: 3.74-r0
+Provides: el-translation, iso-codes-locale
+Recommends: virtual-locale-el
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 122d6fd9ffc9103832213c7df8ecb254
+Size: 41588
+Filename: iso-codes-locale-el_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - el translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the el locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-en
+Version: 3.74-r0
+Provides: en-translation, iso-codes-locale
+Recommends: virtual-locale-en
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: b27966bfb2de1733050d53b36d6cec7a
+Size: 36992
+Filename: iso-codes-locale-en_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - en translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the en locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-eo
+Version: 3.74-r0
+Provides: eo-translation, iso-codes-locale
+Recommends: virtual-locale-eo
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: ef9788a7328e10d949c1ce7f6c03178c
+Size: 31616
+Filename: iso-codes-locale-eo_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - eo translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the eo locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-es
+Version: 3.74-r0
+Provides: es-translation, iso-codes-locale
+Recommends: virtual-locale-es
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: c2ffc4c6c92dbec76bfb67bde268d6f8
+Size: 30922
+Filename: iso-codes-locale-es_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - es translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the es locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-et
+Version: 3.74-r0
+Provides: et-translation, iso-codes-locale
+Recommends: virtual-locale-et
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 2df84a0d88b35e78f306e69538285a6b
+Size: 15878
+Filename: iso-codes-locale-et_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - et translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the et locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-eu
+Version: 3.74-r0
+Provides: eu-translation, iso-codes-locale
+Recommends: virtual-locale-eu
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: de9d0d3742643be7fca37bff6b368570
+Size: 19058
+Filename: iso-codes-locale-eu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - eu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the eu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fa
+Version: 3.74-r0
+Provides: fa-translation, iso-codes-locale
+Recommends: virtual-locale-fa
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: e129dd17e4a0e839d6fd53ffd3e62be3
+Size: 21888
+Filename: iso-codes-locale-fa_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fa translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fa locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fi
+Version: 3.74-r0
+Provides: fi-translation, iso-codes-locale
+Recommends: virtual-locale-fi
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 41839fb6227824e03d55009d16cb21a8
+Size: 37246
+Filename: iso-codes-locale-fi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fo
+Version: 3.74-r0
+Provides: fo-translation, iso-codes-locale
+Recommends: virtual-locale-fo
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: fee7a46e08d645ff8c83ca34b4ca82ea
+Size: 3638
+Filename: iso-codes-locale-fo_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fo translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fo locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-fr
+Version: 3.74-r0
+Provides: fr-translation, iso-codes-locale
+Recommends: virtual-locale-fr
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 2d116f29eb503cf613d5a8b121a65689
+Size: 289042
+Filename: iso-codes-locale-fr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - fr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the fr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ga
+Version: 3.74-r0
+Provides: ga-translation, iso-codes-locale
+Recommends: virtual-locale-ga
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 25166e1fd23c05bc71c073096f31862b
+Size: 23220
+Filename: iso-codes-locale-ga_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ga translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ga locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gez
+Version: 3.74-r0
+Provides: gez-translation, iso-codes-locale
+Recommends: virtual-locale-gez
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 48139125f61107f2d67e108e3bf77bcf
+Size: 7396
+Filename: iso-codes-locale-gez_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - gez translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the gez locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gl
+Version: 3.74-r0
+Provides: gl-translation, iso-codes-locale
+Recommends: virtual-locale-gl
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: dd190187a2c01cef9e81930bb6150385
+Size: 157110
+Filename: iso-codes-locale-gl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - gl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the gl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-gu
+Version: 3.74-r0
+Provides: gu-translation, iso-codes-locale
+Recommends: virtual-locale-gu
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 9ca411cb9f83c9d46f61cd0cd3f8e2a5
+Size: 35050
+Filename: iso-codes-locale-gu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - gu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the gu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-haw
+Version: 3.74-r0
+Provides: haw-translation, iso-codes-locale
+Recommends: virtual-locale-haw
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: fcb4ae4d9ae962b860bd2cdd400f6486
+Size: 1740
+Filename: iso-codes-locale-haw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - haw translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the haw locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-he
+Version: 3.74-r0
+Provides: he-translation, iso-codes-locale
+Recommends: virtual-locale-he
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 9708a062fffdd1315ed0ffcb0c135a5d
+Size: 14096
+Filename: iso-codes-locale-he_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - he translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the he locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hi
+Version: 3.74-r0
+Provides: hi-translation, iso-codes-locale
+Recommends: virtual-locale-hi
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 10b0247733933e9c51e9aa4b9696503b
+Size: 16740
+Filename: iso-codes-locale-hi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hr
+Version: 3.74-r0
+Provides: hr-translation, iso-codes-locale
+Recommends: virtual-locale-hr
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: e8d5c3c99a352ede97fd56871c5225d3
+Size: 29002
+Filename: iso-codes-locale-hr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hu
+Version: 3.74-r0
+Provides: hu-translation, iso-codes-locale
+Recommends: virtual-locale-hu
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 730c8f00c78c4f7b0526a8c472d1a818
+Size: 79766
+Filename: iso-codes-locale-hu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-hy
+Version: 3.74-r0
+Provides: hy-translation, iso-codes-locale
+Recommends: virtual-locale-hy
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: afeee86fd871f33dba88de290693ae32
+Size: 12524
+Filename: iso-codes-locale-hy_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - hy translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the hy locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ia
+Version: 3.74-r0
+Provides: ia-translation, iso-codes-locale
+Recommends: virtual-locale-ia
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 077e027434d7d02df4fffe67b29bd9ca
+Size: 14722
+Filename: iso-codes-locale-ia_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ia translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ia locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-id
+Version: 3.74-r0
+Provides: id-translation, iso-codes-locale
+Recommends: virtual-locale-id
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 250e3b92ea8c0cf1af473b84f05962ac
+Size: 121802
+Filename: iso-codes-locale-id_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - id translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the id locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-is
+Version: 3.74-r0
+Provides: is-translation, iso-codes-locale
+Recommends: virtual-locale-is
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 35742924ce84266bcb5f992e03aa7ae4
+Size: 31748
+Filename: iso-codes-locale-is_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - is translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the is locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-it
+Version: 3.74-r0
+Provides: iso-codes-locale, it-translation
+Recommends: virtual-locale-it
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 6603d22a7bc35c5448028706875bbe20
+Size: 277214
+Filename: iso-codes-locale-it_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - it translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the it locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ja
+Version: 3.74-r0
+Provides: iso-codes-locale, ja-translation
+Recommends: virtual-locale-ja
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 8968d61af9e8581ae901c76359b888cb
+Size: 86420
+Filename: iso-codes-locale-ja_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ja translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ja locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ka
+Version: 3.74-r0
+Provides: iso-codes-locale, ka-translation
+Recommends: virtual-locale-ka
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: bb047bfb741f1f4d32b804b1d72bb290
+Size: 12132
+Filename: iso-codes-locale-ka_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ka translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ka locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kk
+Version: 3.74-r0
+Provides: iso-codes-locale, kk-translation
+Recommends: virtual-locale-kk
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: de2c99ea1e4f74c3fe81c84731ec5cce
+Size: 12490
+Filename: iso-codes-locale-kk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - kk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the kk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-km
+Version: 3.74-r0
+Provides: iso-codes-locale, km-translation
+Recommends: virtual-locale-km
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: ebb985bd9dd226a702129fa515ab7209
+Size: 12854
+Filename: iso-codes-locale-km_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - km translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the km locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kn
+Version: 3.74-r0
+Provides: iso-codes-locale, kn-translation
+Recommends: virtual-locale-kn
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: d0dcaf91a8b5494c192a5403d08c94f7
+Size: 152044
+Filename: iso-codes-locale-kn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - kn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the kn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ko
+Version: 3.74-r0
+Provides: iso-codes-locale, ko-translation
+Recommends: virtual-locale-ko
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 990c00bca1c7eb0607a2ea6a7496219e
+Size: 26642
+Filename: iso-codes-locale-ko_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ko translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ko locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-kok
+Version: 3.74-r0
+Provides: iso-codes-locale, kok-translation
+Recommends: virtual-locale-kok
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 6f1c9335c8d430e96e6b903e212b512d
+Size: 5042
+Filename: iso-codes-locale-kok_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - kok translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the kok locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ku
+Version: 3.74-r0
+Provides: iso-codes-locale, ku-translation
+Recommends: virtual-locale-ku
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: ad843c6d5e95debec632bd1dcec196db
+Size: 10808
+Filename: iso-codes-locale-ku_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ku translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ku locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lt
+Version: 3.74-r0
+Provides: iso-codes-locale, lt-translation
+Recommends: virtual-locale-lt
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 48661c6f36552024b97df837cd6de6af
+Size: 81954
+Filename: iso-codes-locale-lt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - lt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the lt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-lv
+Version: 3.74-r0
+Provides: iso-codes-locale, lv-translation
+Recommends: virtual-locale-lv
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 5e2bb9946a8273fbba7a868010d0b841
+Size: 30266
+Filename: iso-codes-locale-lv_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - lv translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the lv locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mi
+Version: 3.74-r0
+Provides: iso-codes-locale, mi-translation
+Recommends: virtual-locale-mi
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f4c03c9598d9a3f4e06c778581d5d737
+Size: 6550
+Filename: iso-codes-locale-mi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mk
+Version: 3.74-r0
+Provides: iso-codes-locale, mk-translation
+Recommends: virtual-locale-mk
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a125e338dd680dd15faa36b573ab08b3
+Size: 13428
+Filename: iso-codes-locale-mk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ml
+Version: 3.74-r0
+Provides: iso-codes-locale, ml-translation
+Recommends: virtual-locale-ml
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 33b57376d424fa9c5d90e8cf2c4dd01a
+Size: 25584
+Filename: iso-codes-locale-ml_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ml translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ml locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mn
+Version: 3.74-r0
+Provides: iso-codes-locale, mn-translation
+Recommends: virtual-locale-mn
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: e29118f45d16175c972003d1e0f8eef1
+Size: 11014
+Filename: iso-codes-locale-mn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mr
+Version: 3.74-r0
+Provides: iso-codes-locale, mr-translation
+Recommends: virtual-locale-mr
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 001b5950202651d5462a3317f7da0bb5
+Size: 169312
+Filename: iso-codes-locale-mr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ms
+Version: 3.74-r0
+Provides: iso-codes-locale, ms-translation
+Recommends: virtual-locale-ms
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: d17a7af9fc963197c12c02a645bfe348
+Size: 7114
+Filename: iso-codes-locale-ms_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ms translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ms locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-mt
+Version: 3.74-r0
+Provides: iso-codes-locale, mt-translation
+Recommends: virtual-locale-mt
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 0f9f53323f92fd37d862269fb37ab817
+Size: 10902
+Filename: iso-codes-locale-mt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - mt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the mt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nb
+Version: 3.74-r0
+Provides: iso-codes-locale, nb-translation
+Recommends: virtual-locale-nb
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: ffe0677b31c0ee90a67b2bb4a1d8893d
+Size: 19734
+Filename: iso-codes-locale-nb_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nb translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nb locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ne
+Version: 3.74-r0
+Provides: iso-codes-locale, ne-translation
+Recommends: virtual-locale-ne
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 8bbf6e7ff46770ae2628d914bac4feb3
+Size: 12676
+Filename: iso-codes-locale-ne_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ne translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ne locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nl
+Version: 3.74-r0
+Provides: iso-codes-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 028a4b6039aefa7d789bab04a2811453
+Size: 144964
+Filename: iso-codes-locale-nl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nn
+Version: 3.74-r0
+Provides: iso-codes-locale, nn-translation
+Recommends: virtual-locale-nn
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 01979e070c34f56505f789c7e52b2082
+Size: 21266
+Filename: iso-codes-locale-nn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nn translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nn locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-nso
+Version: 3.74-r0
+Provides: iso-codes-locale, nso-translation
+Recommends: virtual-locale-nso
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 5bd2996deb518632f4ccef59fba4f225
+Size: 6178
+Filename: iso-codes-locale-nso_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - nso translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the nso locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-oc
+Version: 3.74-r0
+Provides: iso-codes-locale, oc-translation
+Recommends: virtual-locale-oc
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: eeaeaea2c8a7a81de82b79147e88eb83
+Size: 14970
+Filename: iso-codes-locale-oc_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - oc translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the oc locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-or
+Version: 3.74-r0
+Provides: iso-codes-locale, or-translation
+Recommends: virtual-locale-or
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f0f666e4a545d42145a81d5764d250e6
+Size: 97418
+Filename: iso-codes-locale-or_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - or translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the or locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pa
+Version: 3.74-r0
+Provides: iso-codes-locale, pa-translation
+Recommends: virtual-locale-pa
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f962cba36ae80d72b2f074fe828cf62c
+Size: 163898
+Filename: iso-codes-locale-pa_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pa translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pa locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pl
+Version: 3.74-r0
+Provides: iso-codes-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 7d16f7da4b6b819276ddbf9d1805eeef
+Size: 171438
+Filename: iso-codes-locale-pl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ps
+Version: 3.74-r0
+Provides: iso-codes-locale, ps-translation
+Recommends: virtual-locale-ps
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a2d12b5131bbec7cfc4b7c6585ebf57b
+Size: 3494
+Filename: iso-codes-locale-ps_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ps translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ps locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pt-br
+Version: 3.74-r0
+Provides: iso-codes-locale, pt-br-translation
+Recommends: virtual-locale-pt-br
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 84811af43354a267679e919f2af97b4a
+Size: 19496
+Filename: iso-codes-locale-pt-br_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pt_BR translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pt_BR locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-pt
+Version: 3.74-r0
+Provides: iso-codes-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 728dcd0b4f3d2d9fb784459246911c3e
+Size: 22974
+Filename: iso-codes-locale-pt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - pt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the pt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ro
+Version: 3.74-r0
+Provides: iso-codes-locale, ro-translation
+Recommends: virtual-locale-ro
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f4d833a14702a783e778cffeacf843fe
+Size: 39682
+Filename: iso-codes-locale-ro_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ro translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ro locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ru
+Version: 3.74-r0
+Provides: iso-codes-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 1f1951086a1be72c6671269ab0abf3f6
+Size: 39474
+Filename: iso-codes-locale-ru_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ru translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ru locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-rw
+Version: 3.74-r0
+Provides: iso-codes-locale, rw-translation
+Recommends: virtual-locale-rw
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f8d50bc4fef7949260fb89ed3185241a
+Size: 22334
+Filename: iso-codes-locale-rw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - rw translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the rw locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-si
+Version: 3.74-r0
+Provides: iso-codes-locale, si-translation
+Recommends: virtual-locale-si
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a6677390ef20247e8b7b6bec2997e913
+Size: 12768
+Filename: iso-codes-locale-si_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - si translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the si locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sk
+Version: 3.74-r0
+Provides: iso-codes-locale, sk-translation
+Recommends: virtual-locale-sk
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 474baee6440323d511051e71aaa3f907
+Size: 33686
+Filename: iso-codes-locale-sk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sl
+Version: 3.74-r0
+Provides: iso-codes-locale, sl-translation
+Recommends: virtual-locale-sl
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 18a5bf85fc60169b07756a55bbf151ba
+Size: 67744
+Filename: iso-codes-locale-sl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-so
+Version: 3.74-r0
+Provides: iso-codes-locale, so-translation
+Recommends: virtual-locale-so
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a732d0c679f922a8d32c0e03b9bb0b8f
+Size: 3362
+Filename: iso-codes-locale-so_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - so translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the so locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sq
+Version: 3.74-r0
+Provides: iso-codes-locale, sq-translation
+Recommends: virtual-locale-sq
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 169d26505f477f2e4adeca141d11d6d6
+Size: 10590
+Filename: iso-codes-locale-sq_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sq translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sq locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sr+latin
+Version: 3.74-r0
+Provides: iso-codes-locale, sr+latin-translation
+Recommends: virtual-locale-sr+latin
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f90c01e0741241244a7c2266a6b23d62
+Size: 106262
+Filename: iso-codes-locale-sr+latin_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sr@latin translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sr@latin locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sr
+Version: 3.74-r0
+Provides: iso-codes-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: c60cb2efe188280a3297a308a688ec66
+Size: 114988
+Filename: iso-codes-locale-sr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sv
+Version: 3.74-r0
+Provides: iso-codes-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 78da4df3beaaccb6d424bcb6c5a0a648
+Size: 125996
+Filename: iso-codes-locale-sv_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sv translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sv locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-sw
+Version: 3.74-r0
+Provides: iso-codes-locale, sw-translation
+Recommends: virtual-locale-sw
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a4d3d768f872115465f79b562172abd4
+Size: 4126
+Filename: iso-codes-locale-sw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - sw translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the sw locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ta
+Version: 3.74-r0
+Provides: iso-codes-locale, ta-translation
+Recommends: virtual-locale-ta
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: fa3a3963124265e45c7eccdfbdc1114f
+Size: 167746
+Filename: iso-codes-locale-ta_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ta translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ta locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-te
+Version: 3.74-r0
+Provides: iso-codes-locale, te-translation
+Recommends: virtual-locale-te
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 989167c2418724a05df3449528f74599
+Size: 24646
+Filename: iso-codes-locale-te_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - te translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the te locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-th
+Version: 3.74-r0
+Provides: iso-codes-locale, th-translation
+Recommends: virtual-locale-th
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 28c7950a4a649fc22b3c397836a341dd
+Size: 85912
+Filename: iso-codes-locale-th_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - th translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the th locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ti
+Version: 3.74-r0
+Provides: iso-codes-locale, ti-translation
+Recommends: virtual-locale-ti
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: d8b4b598a742e17eb96fdf6c9af1a0ea
+Size: 7376
+Filename: iso-codes-locale-ti_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ti translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ti locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tig
+Version: 3.74-r0
+Provides: iso-codes-locale, tig-translation
+Recommends: virtual-locale-tig
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 08d14204fb107a1efa107cc4db251d2d
+Size: 7388
+Filename: iso-codes-locale-tig_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tig translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tig locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tk
+Version: 3.74-r0
+Provides: iso-codes-locale, tk-translation
+Recommends: virtual-locale-tk
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 7c20960bb77b44db167c79b88791e0e1
+Size: 7842
+Filename: iso-codes-locale-tk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tl
+Version: 3.74-r0
+Provides: iso-codes-locale, tl-translation
+Recommends: virtual-locale-tl
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 474af046f7ed9669d525f21f4ce83530
+Size: 8894
+Filename: iso-codes-locale-tl_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tl translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tl locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tr
+Version: 3.74-r0
+Provides: iso-codes-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f3ed25622d7246f10b63d1a90e8f569e
+Size: 156306
+Filename: iso-codes-locale-tr_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tr translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tr locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tt+iqtelif
+Version: 3.74-r0
+Provides: iso-codes-locale, tt+iqtelif-translation
+Recommends: virtual-locale-tt+iqtelif
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 0de56bc3db935601e2942700ef853ecf
+Size: 12464
+Filename: iso-codes-locale-tt+iqtelif_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tt@iqtelif translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tt@iqtelif
+ locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-tt
+Version: 3.74-r0
+Provides: iso-codes-locale, tt-translation
+Recommends: virtual-locale-tt
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 63fc3f7a243d125ea52d48827a08a28b
+Size: 14060
+Filename: iso-codes-locale-tt_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - tt translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the tt locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ug
+Version: 3.74-r0
+Provides: iso-codes-locale, ug-translation
+Recommends: virtual-locale-ug
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 0f6b39dedd1789536147d0a1c83d1d02
+Size: 12352
+Filename: iso-codes-locale-ug_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ug translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ug locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-uk
+Version: 3.74-r0
+Provides: iso-codes-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 5190c74f3e84a11bab6efc5d0f3f1d6e
+Size: 314060
+Filename: iso-codes-locale-uk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - uk translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the uk locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-ve
+Version: 3.74-r0
+Provides: iso-codes-locale, ve-translation
+Recommends: virtual-locale-ve
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 006a5235048b486738109b6177b0de81
+Size: 5544
+Filename: iso-codes-locale-ve_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - ve translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the ve locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-vi
+Version: 3.74-r0
+Provides: iso-codes-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 77eee812c11f735c6fa7e66a1b618b02
+Size: 117132
+Filename: iso-codes-locale-vi_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - vi translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the vi locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wa
+Version: 3.74-r0
+Provides: iso-codes-locale, wa-translation
+Recommends: virtual-locale-wa
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: d9e3e427b1f688a05452b469cd485a82
+Size: 24330
+Filename: iso-codes-locale-wa_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - wa translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the wa locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wal
+Version: 3.74-r0
+Provides: iso-codes-locale, wal-translation
+Recommends: virtual-locale-wal
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: f10c871c335511c7778538902c49da40
+Size: 3966
+Filename: iso-codes-locale-wal_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - wal translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the wal locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-wo
+Version: 3.74-r0
+Provides: iso-codes-locale, wo-translation
+Recommends: virtual-locale-wo
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 231e7d90a8b03eebea4d3afa441444a8
+Size: 10384
+Filename: iso-codes-locale-wo_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - wo translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the wo locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-xh
+Version: 3.74-r0
+Provides: iso-codes-locale, xh-translation
+Recommends: virtual-locale-xh
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 1a0759b6ef73d17a921261a9ce105173
+Size: 3794
+Filename: iso-codes-locale-xh_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - xh translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the xh locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-cn
+Version: 3.74-r0
+Provides: iso-codes-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: eacde99cd228d019f4ebf84ba6ea65e0
+Size: 93264
+Filename: iso-codes-locale-zh-cn_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_CN translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zh_CN locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-hk
+Version: 3.74-r0
+Provides: iso-codes-locale, zh-hk-translation
+Recommends: virtual-locale-zh-hk
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 713faf7704bb2ba9b38ad25584be8ff9
+Size: 22464
+Filename: iso-codes-locale-zh-hk_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_HK translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zh_HK locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zh-tw
+Version: 3.74-r0
+Provides: iso-codes-locale, zh-tw-translation
+Recommends: virtual-locale-zh-tw
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: ecca3d98f28e2a57a2702b5c78361640
+Size: 41138
+Filename: iso-codes-locale-zh-tw_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zh_TW translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zh_TW locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes-locale-zu
+Version: 3.74-r0
+Provides: iso-codes-locale, zu-translation
+Recommends: virtual-locale-zu
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 0da0c8efb4b22271928a308fa2800284
+Size: 4018
+Filename: iso-codes-locale-zu_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations - zu translations
+ ISO language, territory, currency, script codes and their translations.
+ This package contains language translation files for the zu locale.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: iso-codes
+Version: 3.74-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: a74a2b05aa84362bb95ba379750279ff
+Size: 363070
+Filename: iso-codes_3.74-r0_all.ipk
+Source: iso-codes_3.74.bb
+Description: ISO language, territory, currency, script codes and their translations
+ ISO language, territory, currency, script codes and their translations.
+OE: iso-codes
+License: LGPLv2.1
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r9
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 647440af79cb66c1dbfadcbbc1cf8a02
+Size: 706
+Filename: run-postinsts-dbg_1.0-r9_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+ Runs postinstall scripts on first boot of the target device.  This
+ package contains ELF symbols and related sources for debugging purposes.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r9
+Depends: run-postinsts (= 1.0-r9)
+Recommends: initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 2cfba062d9cdcdb03925931e3d318434
+Size: 762
+Filename: run-postinsts-dev_1.0-r9_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+ Runs postinstall scripts on first boot of the target device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r9
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 35770678e6638d21746b997e1273e936
+Size: 1934
+Filename: run-postinsts_1.0-r9_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+ Runs postinstall scripts on first boot of the target device.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: settings-autorestore
+Version: 2018102501-r0
+Section: base
+Architecture: all
+Maintainer: OpenPLi team
+MD5Sum: d516df97c4a4eba9cdc15d855c9991c8
+Size: 5170
+Filename: settings-autorestore_2018102501-r0_all.ipk
+Source: settings-autorestore.bb
+Description: settings-autorestore version 2018102501-r0
+ Autorecover settings and install packages at first boot from
+ /media/*/backup
+OE: settings-autorestore
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 24f6c09ec6434a813b1959df36043891
+Size: 674
+Filename: tuxbox-common-dbg_1.0-r0_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 1.0-r0 - Debugging files
+ Tuxbox common  This package contains ELF symbols and related sources for
+ debugging purposes.
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common-dev
+Version: 1.0-r0
+Depends: tuxbox-common (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 0f7954d25aae2d6f20731628fbc25d06
+Size: 706
+Filename: tuxbox-common-dev_1.0-r0_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 1.0-r0 - Development files
+ Tuxbox common  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tuxbox-common
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 45a1583ef38a7e2e28ea4a6ab8960fc3
+Size: 802
+Filename: tuxbox-common_1.0-r0_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 1.0-r0
+ Tuxbox common
+OE: tuxbox-common
+License: GPLv2+
+Priority: optional
+
+Package: tzdata
+Version: 2020a-r0
+Conflicts: timezone-africa, timezone-america, timezone-antarctica, timezone-arctic, timezone-asia, timezone-atlantic, timezone-australia, timezone-europe, timezone-indian, timezone-iso3166.tab, timezone-pacific, timezone-zone.tab, timezones
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: eda39e5edea94a24b884191bffebbd69
+Size: 219018
+Filename: tzdata_2020a-r0_all.ipk
+Source: tzdata_2020a.bb
+Description: Timezone data
+ Timezone data.
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD & BSD-3-Clause
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r5
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 521b2deb3768c78b7766a8cfdf0c9bb7
+Size: 742
+Filename: update-rc.d-dbg_0.7-r5_all.ipk
+Source: update-rc.d_0.7.bb
+Description: manage symlinks in /etc/rcN.d - Debugging files
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 592b7e3f3108c3881e40e3096e89c350
+Size: 770
+Filename: update-rc.d-dev_0.7-r5_all.ipk
+Source: update-rc.d_0.7.bb
+Description: manage symlinks in /etc/rcN.d - Development files
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r5
+Section: base
+Architecture: all
+Maintainer: Open Vision developers <forum.openvision.tech>
+MD5Sum: 81692e18e092943a02387bb21dbc4727
+Size: 2754
+Filename: update-rc.d_0.7-r5_all.ipk
+Source: update-rc.d_0.7.bb
+Description: manage symlinks in /etc/rcN.d
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: volatile-media
+Version: 2-r0
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 9628d31f10dd9a3418fceb3dd8399714
+Size: 936
+Filename: volatile-media_2-r0_all.ipk
+Source: volatile-media.bb
+Description: volatile-media version 2-r0
+ Mounts and populates a tmpfs over /media
+OE: volatile-media
+License: GPLv2+
+Priority: optional
+
