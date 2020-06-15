@@ -94,15 +94,15 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dbg
-Version: 0.1+git2100+301ed70-r0
+Version: 0.1+git2113+bec5aa8-r0
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 1858cf99636ba1c389f18d562daf84fa
-Size: 694
-Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2100+301ed70-r0_all.ipk
+MD5Sum: 5046e2c3f7153a10b754febcf69df9d7
+Size: 696
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2113+bec5aa8-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+301ed7077a-r0 - Debugging files
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+bec5aa82d6-r0 - Debugging files
  PLi HD skin  This package contains ELF symbols and related sources for
  debugging purposes.
 OE: enigma2-plugin-skins-pli-hd
@@ -110,16 +110,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dev
-Version: 0.1+git2100+301ed70-r0
-Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2100+301ed70-r0)
+Version: 0.1+git2113+bec5aa8-r0
+Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2113+bec5aa8-r0)
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: a7de526f4994a3c8eea73e5297f0ee39
+MD5Sum: 637736d0478672f59abdeb94074007fb
 Size: 730
-Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2100+301ed70-r0_all.ipk
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2113+bec5aa8-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+301ed7077a-r0 - Development files
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+bec5aa82d6-r0 - Development files
  PLi HD skin  This package contains symbolic links, header files, and
  related items necessary for software development.
 OE: enigma2-plugin-skins-pli-hd
@@ -127,15 +127,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd
-Version: 0.1+git2100+301ed70-r0
+Version: 0.1+git2113+bec5aa8-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: f1abfb7765ec57e54b1eceb7b3abc653
-Size: 734262
-Filename: enigma2-plugin-skins-pli-hd_0.1+git2100+301ed70-r0_all.ipk
+MD5Sum: 380c56d729c45cf56ca91edf2afad60d
+Size: 734374
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2113+bec5aa8-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+301ed7077a-r0
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+bec5aa82d6-r0
  PLi HD skin
 OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
@@ -202,13 +202,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-atsc-dbg
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: e7008831949c56155737ebe782dbf8be
-Size: 668
-Filename: frequency-xml-list-atsc-dbg_git632+82032b1-r0_all.ipk
+MD5Sum: 5d723609f4ad1f8d84fcfbb8104291c3
+Size: 666
+Filename: frequency-xml-list-atsc-dbg_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-atsc.bb
 Description: atsc.xml for enigma2 - Debugging files
  atsc.xml for enigma2.  This package contains ELF symbols and related
@@ -218,14 +218,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-atsc-dev
-Version: git632+82032b1-r0
-Depends: frequency-xml-list-atsc (= git632+82032b1-r0)
+Version: git635+6fcee75-r0
+Depends: frequency-xml-list-atsc (= git635+6fcee75-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 81ee0e8e64e476a336001b3d85348cbe
+MD5Sum: dd5885b2b2ab8db40a8b17fca581cfac
 Size: 702
-Filename: frequency-xml-list-atsc-dev_git632+82032b1-r0_all.ipk
+Filename: frequency-xml-list-atsc-dev_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-atsc.bb
 Description: atsc.xml for enigma2 - Development files
  atsc.xml for enigma2.  This package contains symbolic links, header
@@ -235,13 +235,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-atsc
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: base
 Architecture: all
 Maintainer: OE-A
-MD5Sum: be90ef17e95136386cd9f653829be34d
-Size: 1942
-Filename: frequency-xml-list-atsc_git632+82032b1-r0_all.ipk
+MD5Sum: caa3125a85c3a9509a405038bad1d99d
+Size: 1940
+Filename: frequency-xml-list-atsc_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-atsc.bb
 Description: atsc.xml for enigma2
  atsc.xml for enigma2.
@@ -250,13 +250,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-cables-dbg
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: e79b98401bf3344517f95a511ddfb519
-Size: 668
-Filename: frequency-xml-list-cables-dbg_git632+82032b1-r0_all.ipk
+MD5Sum: 97fdc3701206973d43b3e94712c4a3d0
+Size: 670
+Filename: frequency-xml-list-cables-dbg_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-cables.bb
 Description: cables.xml for enigma2 - Debugging files
  cables.xml for enigma2.  This package contains ELF symbols and related
@@ -266,14 +266,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-cables-dev
-Version: git632+82032b1-r0
-Depends: frequency-xml-list-cables (= git632+82032b1-r0)
+Version: git635+6fcee75-r0
+Depends: frequency-xml-list-cables (= git635+6fcee75-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 06754f98327783c1101cad2e000ee4ad
-Size: 704
-Filename: frequency-xml-list-cables-dev_git632+82032b1-r0_all.ipk
+MD5Sum: adfeb3080aa6d02d6044fe191c0b12b2
+Size: 702
+Filename: frequency-xml-list-cables-dev_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-cables.bb
 Description: cables.xml for enigma2 - Development files
  cables.xml for enigma2.  This package contains symbolic links, header
@@ -283,13 +283,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-cables
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: base
 Architecture: all
 Maintainer: OE-A
-MD5Sum: e199eb081b91faff2e9c4a2f6811a5c5
-Size: 31782
-Filename: frequency-xml-list-cables_git632+82032b1-r0_all.ipk
+MD5Sum: 68d43ec6b170e214c4790656b706b5f5
+Size: 31780
+Filename: frequency-xml-list-cables_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-cables.bb
 Description: cables.xml for enigma2
  cables.xml for enigma2.
@@ -298,13 +298,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-satellites-dbg
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 21c458f413c9df3cf2dca875a5cf8819
-Size: 672
-Filename: frequency-xml-list-satellites-dbg_git632+82032b1-r0_all.ipk
+MD5Sum: 16b9730f29da34d6335fe7fecb345d02
+Size: 670
+Filename: frequency-xml-list-satellites-dbg_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-satellites.bb
 Description: satellites.xml for enigma2 - Debugging files
  satellites.xml for enigma2.  This package contains ELF symbols and
@@ -314,14 +314,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-satellites-dev
-Version: git632+82032b1-r0
-Depends: frequency-xml-list-satellites (= git632+82032b1-r0)
+Version: git635+6fcee75-r0
+Depends: frequency-xml-list-satellites (= git635+6fcee75-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 6a2b8d656e06598a21c34d9f734daa6c
-Size: 706
-Filename: frequency-xml-list-satellites-dev_git632+82032b1-r0_all.ipk
+MD5Sum: 195c0b42c804842b927e695662922f63
+Size: 704
+Filename: frequency-xml-list-satellites-dev_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-satellites.bb
 Description: satellites.xml for enigma2 - Development files
  satellites.xml for enigma2.  This package contains symbolic links, header
@@ -331,13 +331,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-satellites
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: base
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 07e30a0cb968314d340ecf8b0bf93251
-Size: 34496
-Filename: frequency-xml-list-satellites_git632+82032b1-r0_all.ipk
+MD5Sum: 4b5735953374fd29ba20afd556fe20cf
+Size: 34466
+Filename: frequency-xml-list-satellites_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-satellites.bb
 Description: satellites.xml for enigma2
  satellites.xml for enigma2.
@@ -346,13 +346,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-terrestrial-dbg
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 0ec075357292f5b297d47d2e30e3ddf4
-Size: 678
-Filename: frequency-xml-list-terrestrial-dbg_git632+82032b1-r0_all.ipk
+MD5Sum: 7c209e24bd1cbc898c2ac1a553e79a18
+Size: 672
+Filename: frequency-xml-list-terrestrial-dbg_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-terrestrial.bb
 Description: terrestrial.xml for enigma2 - Debugging files
  terrestrial.xml for enigma2.  This package contains ELF symbols and
@@ -362,14 +362,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-terrestrial-dev
-Version: git632+82032b1-r0
-Depends: frequency-xml-list-terrestrial (= git632+82032b1-r0)
+Version: git635+6fcee75-r0
+Depends: frequency-xml-list-terrestrial (= git635+6fcee75-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 5ffded8faa41a10568995231b607e8d5
-Size: 710
-Filename: frequency-xml-list-terrestrial-dev_git632+82032b1-r0_all.ipk
+MD5Sum: 1aa4dee81967353a96cb553000c17c5b
+Size: 706
+Filename: frequency-xml-list-terrestrial-dev_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-terrestrial.bb
 Description: terrestrial.xml for enigma2 - Development files
  terrestrial.xml for enigma2.  This package contains symbolic links,
@@ -379,13 +379,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-terrestrial
-Version: git632+82032b1-r0
+Version: git635+6fcee75-r0
 Section: base
 Architecture: all
 Maintainer: OE-A
-MD5Sum: 5e5fb0cefcf00a987bff0b820d8d07ad
-Size: 19162
-Filename: frequency-xml-list-terrestrial_git632+82032b1-r0_all.ipk
+MD5Sum: 312d3c9086ca61b10d5f57b65b5b700b
+Size: 19164
+Filename: frequency-xml-list-terrestrial_git635+6fcee75-r0_all.ipk
 Source: frequency-xml-list-terrestrial.bb
 Description: terrestrial.xml for enigma2
  terrestrial.xml for enigma2.
