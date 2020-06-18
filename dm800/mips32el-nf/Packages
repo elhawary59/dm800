@@ -7057,15 +7057,15 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dbg
-Version: 3.1+git732+1992bc2-r0
+Version: 3.1+git734+f941f6b-r0
 Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Recommends: libc6-dbg
 Section: devel
 Architecture: mips32el-nf
 Maintainer: oe-alliance team
-MD5Sum: 01369f2509224b07aa1aaa5152d0f7bd
-Size: 24420
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.1+git732+1992bc2-r0_mips32el-nf.ipk
+MD5Sum: d073a39d7121b82289dda62af63cbd8a
+Size: 24436
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dbg_3.1+git734+f941f6b-r0_mips32el-nf.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Debugging files
  Automatically build and update bouquets from the DVB stream.  This
@@ -7075,15 +7075,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-dev
-Version: 3.1+git732+1992bc2-r0
-Depends: enigma2-plugin-systemplugins-autobouquetsmaker (= 3.1+git732+1992bc2-r0)
+Version: 3.1+git734+f941f6b-r0
+Depends: enigma2-plugin-systemplugins-autobouquetsmaker (= 3.1+git734+f941f6b-r0)
 Recommends: enigma2-dev, libc6-dev
 Section: devel
 Architecture: mips32el-nf
 Maintainer: oe-alliance team
-MD5Sum: fe34f92ef1b266415cf272000fd72798
+MD5Sum: 986e80816bc4c80f6c858ff7ba88ef39
 Size: 778
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.1+git732+1992bc2-r0_mips32el-nf.ipk
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-dev_3.1+git734+f941f6b-r0_mips32el-nf.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: Automatically build and update bouquets from the DVB stream. - Development files
  Automatically build and update bouquets from the DVB stream.  This
@@ -7094,14 +7094,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-po
-Version: 3.1+git732+1992bc2-r0
+Version: 3.1+git734+f941f6b-r0
 Depends: enigma2-plugin-systemplugins-autobouquetsmaker
 Section: base
 Architecture: mips32el-nf
 Maintainer: oe-alliance team
-MD5Sum: 0d08e784039d4bf210b5008f8df26c4c
-Size: 52304
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.1+git732+1992bc2-r0_mips32el-nf.ipk
+MD5Sum: eae407e1e3fe6cf296dc23a0888316ac
+Size: 52322
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-po_3.1+git734+f941f6b-r0_mips32el-nf.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (translations)
  systemplugins-autobouquetsmaker (translations)
@@ -7110,14 +7110,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker-src
-Version: 3.1+git732+1992bc2-r0
+Version: 3.1+git734+f941f6b-r0
 Depends: enigma2
 Section: base
 Architecture: mips32el-nf
 Maintainer: oe-alliance team
-MD5Sum: 0730f697410c482833837b22612fcd8d
-Size: 57414
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.1+git732+1992bc2-r0_mips32el-nf.ipk
+MD5Sum: fff414bf019ba86abf14fac6cc6b04d6
+Size: 57402
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker-src_3.1+git734+f941f6b-r0_mips32el-nf.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker (source files)
  systemplugins-autobouquetsmaker (source files)
@@ -7126,14 +7126,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autobouquetsmaker
-Version: 3.1+git732+1992bc2-r0
+Version: 3.1+git734+f941f6b-r0
 Depends: enigma2, libc6 (>= 2.19)
 Section: base
 Architecture: mips32el-nf
 Maintainer: oe-alliance team
-MD5Sum: e5570902e0e6538a2b937c462093499b
-Size: 293406
-Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git732+1992bc2-r0_mips32el-nf.ipk
+MD5Sum: 99382c6d16e5d9e809b08aa4fc2adb96
+Size: 293522
+Filename: enigma2-plugin-systemplugins-autobouquetsmaker_3.1+git734+f941f6b-r0_mips32el-nf.ipk
 Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb
 Description: systemplugins-autobouquetsmaker
  systemplugins-autobouquetsmaker
@@ -72396,13 +72396,13 @@ License: openssl
 Priority: optional
 
 Package: openvision-bootlogo-dbg
-Version: 20200615-r0
+Version: 20200618-r0
 Section: devel
 Architecture: mips32el-nf
 Maintainer: Open Vision developers <forum.openvision.tech>
-MD5Sum: dc4ad4b79a130e0d3d5d759e8508aacb
-Size: 698
-Filename: openvision-bootlogo-dbg_20200615-r0_mips32el-nf.ipk
+MD5Sum: 52be9e4a24aa716947928ab8160a7346
+Size: 700
+Filename: openvision-bootlogo-dbg_20200618-r0_mips32el-nf.ipk
 Source: openvision-bootlogo.bb
 Description: openvision-bootlogo version 1.0-r0 - Debugging files
  Open Vision bootlogo  This package contains ELF symbols and related
@@ -72412,15 +72412,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openvision-bootlogo-dev
-Version: 20200615-r0
-Depends: openvision-bootlogo (= 20200615-r0)
+Version: 20200618-r0
+Depends: openvision-bootlogo (= 20200618-r0)
 Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: mips32el-nf
 Maintainer: Open Vision developers <forum.openvision.tech>
-MD5Sum: a9144a05e7c7fe4cb095b3deff7ceab4
-Size: 764
-Filename: openvision-bootlogo-dev_20200615-r0_mips32el-nf.ipk
+MD5Sum: ae6c89fdd66e729253b5ac1a4f5a5f38
+Size: 768
+Filename: openvision-bootlogo-dev_20200618-r0_mips32el-nf.ipk
 Source: openvision-bootlogo.bb
 Description: openvision-bootlogo version 1.0-r0 - Development files
  Open Vision bootlogo  This package contains symbolic links, header files,
@@ -72430,15 +72430,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openvision-bootlogo
-Version: 20200615-r0
+Version: 20200618-r0
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: mips32el-nf
 Maintainer: Open Vision developers <forum.openvision.tech>
-MD5Sum: cd40ccda832801eb363d5141c66b1515
-Size: 679940
-Filename: openvision-bootlogo_20200615-r0_mips32el-nf.ipk
+MD5Sum: 046b5dc72e62c641c32571e55006f7c7
+Size: 679942
+Filename: openvision-bootlogo_20200618-r0_mips32el-nf.ipk
 Source: openvision-bootlogo.bb
 Description: openvision-bootlogo version 1.0-r0
  Open Vision bootlogo
